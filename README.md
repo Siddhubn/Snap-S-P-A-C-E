@@ -69,6 +69,6 @@ venv\Scripts\activate
 flask run
 ```
 ---
-### License : (LICENSE)
+### License : [LICENSE](LICENSE)
 
 [Project_PPT](https://drive.google.com/file/d/10qYGRJAwamWzcyySK55JOaPW-aQx1TK0/view?usp=drive_link) 
