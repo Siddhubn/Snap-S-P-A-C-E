@@ -41,4 +41,34 @@ HTML5 and CSS3: Templates with a responsive and an attractive interface.
 Google Photos, Pinterest..., etc
 ---
 
+---
+## SnapShots of the WebApp UI :
+### Login Page:
+![loginpage](https://github.com/user-attachments/assets/e635fe68-959a-4f11-aca1-de56b0bc47ae "Login Page")
+
+### Gallery Page:
+![gallery](https://github.com/user-attachments/assets/b8f6efbd-ed84-49b7-a68b-b258ac3c6f96 "Gallery Page")
+
+### Uploads Page:
+![upload](https://github.com/user-attachments/assets/1766b601-023d-4412-89ed-833a3700d264 "Uploads Page")
+
+---
+
+## Installation and Running 🚀:
+#### Clone the repository by:
+```bash
+$git clone https://github.com/Siddhubn/Snap-S-P-A-C-E 
+```
+
+#### Inside the Project diretory, open cmd :
+Activate the virtual environment and 
+```bash
+venv\Scripts\activate
+```
+```python
+flask run
+```
+---
+### License : (LICENSE)
+
 [Project_PPT](https://drive.google.com/file/d/10qYGRJAwamWzcyySK55JOaPW-aQx1TK0/view?usp=drive_link) 
