@@ -7,23 +7,23 @@
 
 ---
 ## 👨‍💻Technical Stack used to build the Web App💻:
-flask: Python framework for building web applications.
-flask-SQLAlchemy: SQLAlchemy ORM integration for handling database interactions
-flask-login: handles user authentication and session management
-flask-WTF: to handle the forms and csrf tokens
-flask-migrate: to migrate the models to the database while keeping the schema of the database UpToDate
-flask-uploads: to handle file uploading and storage
+**flask**: Python framework for building web applications.
+**flask-SQLAlchemy**: SQLAlchemy ORM integration for handling database interactions
+**flask-login**: handles user authentication and session management
+**flask-WTF**: to handle the forms and csrf tokens
+**flask-migrate**: to migrate the models to the database while keeping the schema of the database UpToDate
+**flask-uploads**: to handle file uploading and storage
 
-Database: PostgreSQL, open-source relational database as work in development stage.
-Psycopg2: A Python Database Connector used to connect the flask Web App with PostgreSQL.
+**Database**: PostgreSQL, open-source relational database as work in development stage.
+**Psycopg2**: A Python Database Connector used to connect the flask Web App with PostgreSQL.
 
 HTML5 and CSS3: Templates with a responsive and an attractive interface.
 
 ## Technical Features of the WebApp:
-1. User-Authentication: Images uploaded kept safe and secure specific to the logged user.
-2. Image Uploading: gives the ability to upload his/her images in their gallery.
-3. Image Gallery: gives the ability to view and delete images present on their gallery.
-4. Responsive-Design: Better is the design/styling of the WebApp which makes the user feel like spending some time on it.
+1. **User-Authentication**: Images uploaded kept safe and secure specific to the logged user.
+2. **Image Uploading**: gives the ability to upload his/her images in their gallery.
+3. **Image Gallery**: gives the ability to view and delete images present on their gallery.
+4. **Responsive-Design**: Better is the design/styling of the WebApp which makes the user feel like spending some time on it.
 
 ## Applications of the WebApp:
 1. Personal Photo Gallery
@@ -38,7 +38,7 @@ HTML5 and CSS3: Templates with a responsive and an attractive interface.
 5. Cloud Storage Integration: This upgrade is what makes the lot difference in the implementation of a real WebApp which will be fully scalable for users to store their images online and access them anywhere upon logging in.
 
 ## Examples of some popular Image Gallery Apps are:
-Google Photos, Pinterest..., etc
+#### Google Photos, Pinterest..., etc
 ---
 
 ---
