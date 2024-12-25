@@ -1,0 +1,221 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color: #121212;
+    color: #e0e0e0;
+    line-height: 1.6;
+}
+
+/* Smooth animations */
+body, button, input {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Links */
+a {
+    color: #00adb5;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-family: Bebas Neue;
+}
+
+a:hover {
+    color: #02fff7;
+    font-family: Bebas Neue;
+}
+
+p {font-family: Roboto Mono;}
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    background: url('https://media.giphy.com/media/KZFrf9JusXzmpnPsT6/giphy.gif') no-repeat center center fixed;
+    background-size: cover; /* Ensure the background covers the entire screen */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fff; /* Use white text to contrast with the background */
+}
+
+/* Header */
+header {
+    background: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #00adb5;
+    margin-bottom: 5px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+header p {
+    font-size: 1rem;
+    color: #e0e0e0;
+}
+
+h2 {font-family: Bona Novs SC;}
+/* Forms */
+form {
+    background: #1f1f1f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    animation: slideUp 0.5s ease;
+}
+
+form label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form input {
+    background: #2c2c2c;
+    color: #e0e0e0;
+}
+
+form input:focus {
+    background: #383838;
+}
+
+form button {
+    background: #00adb5;
+    color: #121212;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background: #02fff7;
+}
+
+/* Gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.8);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background: #00adb5;
+    color: #121212;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.3s ease;
+}
+
+.btn:hover {
+    background: #02fff7;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background: #1f1f1f;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    color: #888;
+}
+
+footer a {
+    color: #00adb5;
+}
+
+footer a:hover {
+    color: #02fff7;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    .btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+}
+
+.getstarted {color:#00adb5;
+background-color: #121212;
+text-align: center;
+align-content: center;
+padding:15px;}

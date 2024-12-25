@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - SnapSpace{% endblock %}
+
+{% block content %}
+<section style="margin:25px;">
+<h2>Welcome to Snap  S p a c e !</h2><br>
+<p>Organize and share your images with ease.</p><br>
+{% if current_user.is_authenticated %}
+    <p>Hello, {{ current_user.username }}!</p>
+    <a href="{{ url_for('gallery') }}" class="button">View Your Gallery</a>
+{% else %}
+    <div style="align-content: center;"><button class="getstarted"><a href="{{ url_for('register') }}" class="button">G e t _ S t a r t e d</a></button></div>
+{% endif %}
+</section>
+{% endblock %}

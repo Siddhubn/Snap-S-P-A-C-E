@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% block title %}Gallery - SnapSpace{% endblock %}
+
+{% block content %}
+<section style="margin:15px;">
+<h2>Your Gallery</h2><br>
+<a href="{{ url_for('upload') }}" class="button">Upload New Image</a><br>
+<section style="margin:25px;">
+<div class="gallery">
+    {% for image in images %}
+        <div class="image">
+            <img src="{{ url_for('static', filename='uploads/' + image.filename) }}" alt="Image">
+            <a href="{{ url_for('delete', image_id=image.id) }}" class="delete-button">Delete</a>
+        </div>
+    {% endfor %}
+</div><br>
+{% if not images %}
+    <p>You have no images in your gallery yet. Start by uploading one!</p>
+{% endif %}
+</section>
+{% endblock %}
