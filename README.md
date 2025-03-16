@@ -4,7 +4,6 @@
 > Opening Google photos app, scrolling it down till the bottom and we find the most beautiful memories or most unforgettable moments being captured, but it might have got lost if the photos were to be stored on a mobile, but now it being stored on the google account, though how many devices changed the images/the moments which captured the memories are still present without being forgotten.
 ---
 ![coverpage](https://github.com/user-attachments/assets/f2714984-f9a9-4368-a6d4-3dfd7d5c3b8d)
-
 ---
 ## 👨‍💻Technical Stack used to build the Web App💻:
 **flask**: Python framework for building web applications.
